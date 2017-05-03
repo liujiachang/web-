@@ -1,8 +1,27 @@
-a:link{text-decoration: none;color: #727272;}
-a:hover{text-decoration: underline;}
-a{color: white;}
-a.white:link{color: white;font-weight: 700;font-size: 14px;text-decoration: none;}
-a.white:hover{color: #b9f605;font-weight: 700;font-size: 14px;text-decoration: none;}
-#shouye{font-weight: 700;font-size: 14px;color: #b9f605;}
-#abc{font-weight: 700;font-size: 14px;color: #fdb306;}
-body{font-size: 12px;font-family: 'Arial';color: gray;line-height: 2em;}
+*{
+	font-size : 12px ;
+	line-height : 2em;
+	
+}
+a:link{
+	color : #727272;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+.head{
+	font-size: 14px;
+	color : #b9f605;
+	font-weight : bold;
+}
+.head a{
+	color : white;
+}
+.head a:hover {
+	color : #b9f605;
+	text-decoration : underline;
+}
+ul{
+	list-style-type:none;
+}
